@@ -7,7 +7,6 @@ export async function createPostAction(_, formData) {
   const location = formData.get("location");
   const description = formData.get("desc");
   const country = formData.get("country");
-  // const attachment = formData.get("attachment");
 
   if (!title || !location || !description || !country) {
     return { message: "All fields are required!" };

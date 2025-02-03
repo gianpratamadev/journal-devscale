@@ -8,13 +8,6 @@ import { Button, Form, Input, Select, SelectItem } from "@heroui/react";
 export const FormCreate = () => {
   const [state, formAction, pending] = useActionState(createPostAction, null);
 
-  const countries = [
-    { id: 0, label: "ID" },
-    { id: 1, label: "US" },
-    { id: 2, label: "MY" },
-    { id: 3, label: "SG" },
-  ];
-
   return (
     <section className="w-fit p-4 bg-slate-200 rounded-2xl mx-auto">
       <Form action={formAction}>
