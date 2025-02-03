@@ -10,7 +10,7 @@ export async function deletePostAction(_, formData) {
     headers: {
       "Content-Type": "application/json",
     },
-    body: JSON.stringify([{ _id }]),
+    body: JSON.stringify([_id]),
   });
 
   revalidatePath("/");
