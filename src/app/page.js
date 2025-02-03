@@ -1,5 +1,6 @@
 import { FormCreate } from "./_components/form-create";
 import { DataList } from "./_components/data-list";
+import { FormUpdate } from "./_components/form-update";
 
 export default async function Page() {
   return (
