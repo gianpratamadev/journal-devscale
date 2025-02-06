@@ -26,7 +26,6 @@ export const DataList = async () => {
               shadow="lg"
             >
               <FormDelete id={data._id}/>
-              <FormUpdate id={data._id}/>
               <CardHeader className="absolute z-10 top-0 flex-col !items-start">
                 <p className="text-tiny text-white/80 uppercase font-bold">
                   {`${data.location}, ${data.country}`}
